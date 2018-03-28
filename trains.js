@@ -57,7 +57,6 @@ database.ref().on("child_added", function(childSnapshot) {
     var tFrequency = childSnapshot.val().frequency;
     var firstTime = childSnapshot.val().firstTrainTime;
     var firstTimeConvert = moment(firstTime, "HH:mm").subtract(1,"years");
-
     //difference between current time and time train first left (in minutes)
     var difTime = moment().diff(moment(firstTimeConvert), "minutes");
     //divide the time since the train first left by the train frequency and the remainder (means you have gone x amount of minutes into the current trip)
@@ -67,11 +66,7 @@ database.ref().on("child_added", function(childSnapshot) {
     console.log(difTime);
     console.log(firstTimeConvert);
     console.log('tRemainder' + tRemainder);
-
-
-
     var minutesAway = (tFrequency - tRemainder);
-
     var nextArrival = moment().add(minutesAway, "minutes").format("HH: mm");
     console.log(nextArrival);
 
@@ -86,12 +81,7 @@ database.ref().on("child_added", function(childSnapshot) {
              <td>${childSnapshot.val().destination}</td> 
              <td>${childSnapshot.val().frequency}</td> 
              <td>${nextArrival}</td> 
-             <td>${minutesAway}</td> 
-             
-            
-            
-             
-            
+             <td>${minutesAway}</td>        
      </tr> 
      `);
 

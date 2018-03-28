@@ -96,42 +96,12 @@ database.ref().on("child_added", function(childSnapshot) {
      `);
 
   
-    //  <td>${childSnapshot.val().firstTrainTime}</td> 
+   
 
     }, function(errorObject) {
         console.log("Errors handled: " + errorObject.code);
 
-//     var currentDate = moment().format("MM DD YY");
-//     console.log("current date " + currentDate);
-//    var startDateFormat = (moment(startdate).format("MM DD YY"))
-   
-//    console.log("start date " + startDateFormat);
-   
-//    // console.log(currentDate-startDateFormat);
-//    var monthsWorked = moment(currentDate).diff(startDateFormat, "months");
-   
-//    console.log("difference in months: " + moment(currentDate).diff(startDateFormat, "months"));
-   
 
-   
-   
-   
-//    // Log everything that's coming out of snapshot
-//        console.log(childSnapshot.val().name)
-//        $("#main-table").append(`<
-//            <tr>
-//                    <td>${childSnapshot.val().name}</td>
-//                    <td>${childSnapshot.val().role}</td> 
-//                    <td>${childSnapshot.val().startdate}</td> 
-//                    <td>${childSnapshot.val().mrate}</td> 
-//                    <td>${monthsWorked}</td> 
-                   
-//            </tr>
-//            `);
-//        // Change the HTML to reflect
-//        // Handle the errors
-//        }, function(errorObject) {
-//        console.log("Errors handled: " + errorObject.code);
    });
 
 

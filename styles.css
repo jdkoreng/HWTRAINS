@@ -60,7 +60,7 @@ background-color: teal;
     font-family: 'URW Chancery L', cursive; 
     text-align: center;
     font-size: 45px;
-    
+ 
     
 
 }
@@ -74,6 +74,34 @@ background-color: teal;
     width: 100px;
 
 }
+
+
+.option-heads {
+     background-color: teal; 
+    font-size: 17px;
+    text-align: center;
+    font-family: 'URW Chancery L', cursive; 
+    text-shadow: black 0.3em 0.3em 0.3em;
+    height: 30px;
+    width: 100px;
+    color: white;
+    
+}
+
+
+.option-heads2 {
+    background-color: teal; 
+   font-size: 17px;
+   text-align: center;
+   font-family: 'URW Chancery L', cursive; 
+   text-shadow: black 0.3em 0.3em 0.3em;
+   height: 50px;
+   width: 100px;
+   color: white;
+   
+}
+
+
 
 /* body {
     background-image: url("assets/images/tracks.jpg");

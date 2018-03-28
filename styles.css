@@ -38,8 +38,19 @@
 background-image: url("assets/images/mountains.png");
 } */
 
-.jumbotron {
+/* .jumbotron {
 background-color: teal;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+} */
+
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url("assets/images/mountains.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
 }
@@ -63,3 +74,7 @@ background-color: teal;
     width: 100px;
 
 }
+
+/* body {
+    background-image: url("assets/images/tracks.jpg");
+} */

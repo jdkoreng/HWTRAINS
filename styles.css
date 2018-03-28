@@ -28,4 +28,38 @@
 #header-name {
     margin-left: auto;
     margin-right: auto;
+
+    font-family: 'URW Chancery L', cursive; 
+    
+}
+
+/* 
+.jumbotron {
+background-image: url("assets/images/mountains.png");
+} */
+
+.jumbotron {
+background-color: teal;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+#incoming-trains {
+    height: 70px;
+    font-family: 'URW Chancery L', cursive; 
+    text-align: center;
+    font-size: 45px;
+    
+    
+
+}
+
+#add-train {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'URW Chancery L', cursive; 
+    text-shadow: black 0.3em 0.3em 0.3em;
+    height: 30px;
+    width: 100px;
+
 }

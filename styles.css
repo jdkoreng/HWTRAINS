@@ -24,14 +24,15 @@
 
 #submit {
 
-     background-color: teal; 
+     /* background-color: teal;  */
     font-size: 24px;
     text-align: center;
     font-family: 'URW Chancery L', cursive; 
-    text-shadow: black 0.3em 0.3em 0.3em;
+    /* text-shadow: black 0.3em 0.3em 0.3em; */
     height: 50px;
     width: 200px;
     color: white;
+    background-color: #337ab7;
 
 }
 
